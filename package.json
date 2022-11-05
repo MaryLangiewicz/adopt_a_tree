@@ -1,0 +1,23 @@
+{
+  "name": "adopt_a_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./assets/scss/main.scss ./assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaryLangiewicz/adopt_a_tree.git"
+  },
+  "author": "MaryLangiewicz",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/MaryLangiewicz/adopt_a_tree/issues"
+  },
+  "homepage": "https://github.com/MaryLangiewicz/adopt_a_tree#readme",
+  "devpendencies": {
+    "sass": "^1.56.0"
+  }
+}
