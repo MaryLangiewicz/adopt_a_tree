@@ -1,4 +1,5 @@
-
+@import "./partials/variables";
+@import "./partials/_spacing";
 .styleguide-nav{
     position: relative;
 }
@@ -35,5 +36,12 @@
 display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+
+.styleguide-demo-each--spacing{
+    > div{
+        background-color: $gray-mist;
+        margin: 0 0 $spacing
     }
 }
