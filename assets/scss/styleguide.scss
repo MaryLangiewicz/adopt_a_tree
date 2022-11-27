@@ -264,39 +264,3 @@ ul {
     padding-left: 0;
 }
 
-.styleguide {
-    background: silver;
-    transition: all 3s;
-
-    @include mq(sm) {
-        background-color: red;
-    }
-
-    @include mq(md) {
-        background-color: gold;
-    }
-
-    @include mq(lg) {
-        background-color: green;
-    }
-
-    @media screen and (orientation: landscape) {
-        background-color: pink;
-    }
-
-    @media screen and (orientation: portrait) {
-        background-color: blue;
-    }
-
-    @media screen and (aspect-ratio: 6/3) {
-        background-color: peru;
-    }
-
-    @media screen and (prefers-color-scheme: dark){
-        background-color: lightseagreen;
-    }
-
-    @media screen and (prefers-color-scheme: light){
-        background-color: olive;
-    }
-}
