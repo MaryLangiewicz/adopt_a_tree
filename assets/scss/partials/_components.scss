@@ -1,5 +1,5 @@
 @import "./variables";
-
+@import "./globals";
 // ---------------------------------------------
 // COMPONENTS
 
@@ -164,6 +164,8 @@
         text-align: center;
         font-weight: $font-bold;
         width: calc(100% - $spacing-3);
+
+        @extend .vertical-center;
     }
 
     &-banner-icons {
@@ -178,6 +180,9 @@
 
     &-banner-icon {
         font-size: $icon-size-xl;
+
+        @include icon-right;
+
         &:first-of-type{
             margin-left: 0;
         }
