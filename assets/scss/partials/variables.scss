@@ -61,6 +61,7 @@ $font-size: toRem(14px);
 $font-size-sm: toRem(12px);
 $font-size-xs: toRem(10px);
 $font-size-lg: toRem(16px);
+$font-size-xl: toRem(22px);
 
 //Fonts: heading sizes
 $h1: toRem(24px);
@@ -71,7 +72,7 @@ $h5: toRem(16px);
 $h6: toRem(14px);
 
 //Font Icons: families
-$font-family-icon: "iconmoon";
+$font-family-icon: "icomoon";
 $icon-path: "../font-icons";
 
 //Font Icons: spacing: left and right
@@ -97,6 +98,12 @@ $spacing-half: math.div($spacing, 2);
 //VARIABLES: Transition
 $transition-linear: all 0.2s linear;
 $transition-ease-in: all 0.2s ease-in;
+
+// ----------------------------
+// VARIABLES: Media queries
+$media-sm: toRem(600px);
+$media-sm-max: toRem(768px);
+$media-lg: toRem(1200px);
 
 // --------------------------------------------
 //VARIABLES: border-radius
@@ -124,8 +131,6 @@ $box-shadow: 0 toRem(4px) toRem(10px) rgba($black, 0.1);
 //VARIABLES: assets path
 $svg-path: '../svg';
 
-
-
 // --------------------------------------------
 //VARIABLES: media-queries breakpoints
 $media-lg: toRem(1200px);
@@ -137,7 +142,7 @@ $media-md-max: $media-md - toRem(1px);
 $media-sm-max: $media-sm - toRem(1px);
 
 // --------------------------------------------
-//VARIABLES: grid column
+//VARIABLES: grid column grid gutters
 $grid-column-count: 12;
 $grid-gutter: toRem(7.5px);
 $grid-gutter-sm: math.div($grid-gutter, 2);

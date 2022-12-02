@@ -35,7 +35,7 @@ $font-sizes-map: (
 $font-weight-map: (
         "font-regular": $font-regular,
         "font-semi-bold": $font-semi-bold,
-        "font-bold": font-bold
+        "font-bold": $font-bold,
 );
 
 // @each Sass loop to generate classes
