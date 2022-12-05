@@ -111,6 +111,10 @@ $border-radius-map: (
 // ---------------------------------------------
 // GLOBALS: ICONS
 
+.icon-left-sm{
+    font-size: $icon-size-sm;
+}
+
 .icon-left-lg{
     font-size: $icon-size-lg;
 }
