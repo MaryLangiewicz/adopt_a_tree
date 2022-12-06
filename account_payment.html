@@ -31,6 +31,37 @@
                     </div>
                 </div>
             </div>
+            <div class="spacing-2 white-bg">
+                <ul class="tab-block text-center flex flex-justify-center" data-tabs="">
+                    <li class="tab-each">
+                        <a href="#tab-projects" class="tab-each-anchor" data-tabby-default="">
+                            <span class="at-icon-leaf icon-left-lg" aria-hidden="true"></span>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="tab-each">
+                        <a href="#tab-payment" class="tab-each-anchor">
+                            <span class="at-icon-card icon-left-lg" aria-hidden="true"></span>
+                            <span>Payment</span>
+                        </a>
+                    </li>
+                    <li class="tab-each">
+                        <a href="#tab-profile" class="tab-each-anchor">
+                            <span class="at-icon-user icon-left-lg" aria-hidden="true"></span>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div id="tab-projects" class="spacing-v"></div>
+                <div id="tab-payment" class="spacing-v"></div>
+                <div id="tab-profile" class="spacing-v"></div>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var tabs = new Tabby('[data-tabs]');
+                    });
+                </script>
         </div>
     </div>
 </section>
