@@ -26,7 +26,9 @@ $gray-cement: #999;
 $gray-titanium: #AAA;
 $gray-cloud: #DADEE8;
 $gray-mist: #F1F1F1;
+$gray-light: #E5E5E5;
 $white: #FFF;
+
 
 //Colors: typography
 $color-font: $gray-lead;
@@ -104,7 +106,7 @@ $transition-ease-in: all 0.2s ease-in;
 
 // ----------------------------
 // VARIABLES: Media queries
-$media-sm: toRem(600px);
+$media-sm: toRem(451px);
 $media-sm-max: toRem(768px);
 $media-lg: toRem(1200px);
 
@@ -138,7 +140,7 @@ $svg-path: '../svg';
 //VARIABLES: media-queries breakpoints
 $media-lg: toRem(1200px);
 $media-md: toRem(900px);
-$media-sm: toRem(600px);
+$media-sm: toRem(451px);
 
 $media-lg-max: $media-lg - toRem(1px);
 $media-md-max: $media-md - toRem(1px);
