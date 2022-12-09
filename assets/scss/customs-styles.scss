@@ -6,3 +6,7 @@
     padding-bottom: toRem(36px);
 }
 
+.banner-card{
+    @extend .absolute-center;
+    top:38%
+}

@@ -13,7 +13,7 @@
     <script src="./assets/js/libs/tabby.js" async defer></script>
 </head>
 <body>
-<section class="container-sm">
+<section class="container-sm" id="tab-payment">
     <div class="row">
         <div class="col">
             <div class="spacing-2 brand-1-bg">
@@ -38,17 +38,17 @@
                     <li class="tab-each">
                         <a href="#tab-projects" class="tab-each-anchor" data-tabby-default="">
                             <span class="at-icon-leaf icon-left-lg" aria-hidden="true"></span>
-                            <span>Projects</span>
+                            <span id="tab-projects">Projects</span>
                         </a>
                     </li>
                     <li class="tab-each">
-                        <a href="#tab-payment" class="tab-each-anchor">
+                        <a href="account_payment.html" class="tab-each-anchor">
                             <span class="at-icon-card icon-left-lg" aria-hidden="true"></span>
                             <span>Payment</span>
                         </a>
                     </li>
                     <li class="tab-each">
-                        <a href="#tab-profile" class="tab-each-anchor">
+                        <a href="account_profile.html" class="tab-each-anchor">
                             <span class="at-icon-user icon-left-lg" aria-hidden="true"></span>
                             <span>Profile</span>
                         </a>
@@ -108,16 +108,26 @@
                         <input type="text" class="form-text font-bold text-right text-uppercase" placeholder="Country" id="country">
                     </div>
                     <div class="spacing-2-b">
-                        <button class="btn btn--brand-2 full-width spacing-2-b" tabindex="0" role="button">Save Changes</button>
+                        <a href="account_payment_saved.html" class="btn btn--brand-2 full-width spacing-2-b text-center" tabindex="0" role="button">Save Changes</a>
                     </div>
                 </div>
             </div>
             <footer class="white-bg">
                 <div class="spacing-2 icon-left-xxl text-center white-bg flex flex-justify-space-between">
-                    <span class="at-icon-home gray-titanium"></span>
-                    <span class="at-icon-leaf gray-titanium"></span>
-                    <span class="at-icon-cart gray-titanium"></span>
-                    <span class="at-icon-user gray-lead"></span>
+                    <a href="home.html">
+                        <span class="at-icon-home icon-size-xxl spacing-3-h gray-titanium"></span>
+                    </a>
+                    <a href="project.html">
+                        <span class="at-icon-leaf icon-size-xxl spacing-3-h gray-titanium"></span>
+                    </a>
+                    <a href="purchase-cart.html">
+                        <span class="at-icon-cart icon-size-xxl spacing-3-h gray-titanium">
+                            <sup class="font-size-xs red-crimson font-bold vertical-align-top">2</sup>
+                        </span>
+                    </a>
+                    <a href="account.html">
+                        <span class="at-icon-user icon-size-xxl spacing-3-h gray-lead"></span>
+                    </a>
                 </div>
             </footer>
         </div>

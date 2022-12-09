@@ -10,7 +10,7 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/styleguide.css">
+    <script src="./assets/js/libs/glider.js" async defer></script>
 </head>
 <body>
 <section class="container-sm">
@@ -91,63 +91,85 @@
             <div class="spacing-2">
                 <h2 class="margin-reset text-center black spacing-3-t font-semi-bold">Our Projects</h2>
                 <p class="text-center gray-lead font-regular font-size-lg">From Brazil to Borneo to Burundi</p>
-                <div class="card flex">
-                    <div class="card-banner">
-                        <div class="overlay overlay--card-banner"></div>
-                        <img src="assets/img/borneo-tree-planting-600px.jpg" alt="Tree Planting at Borneo" width="600"
-                             height="450" class="card-banner-img">
-                        <div class="card-banner-content spacing-3-r" style="max-width: 282px">
-                            <div class="row-sm flex flex-justify-space-between">
-                                <div class="col-sm card-location">
-                                    <span class="at-icon-map icon-left" aria-hidden="true"></span>
-                                    <span class="font-size-sm font-bold">Borneo, Indonesia</span>
+                <div class="glider-block">
+                    <div id="js-glider-demo-1" class="row flex flex-justify-space-between" style="width: 551px;">
+                        <div class="card" style="width: 100%; max-width: 285px; min-height: 160px;">
+                            <div class="card-banner">
+                                <div class="overlay overlay--card-banner"></div>
+                                <img src="assets/img/borneo-tree-planting-600px.jpg" alt="Tree Planting at Borneo"
+                                     width="600"
+                                     height="450" class="card-banner-img">
+                                <div class="card-banner-content spacing-3-r" style="max-width: 282px">
+                                    <div class="row-sm flex flex-justify-space-between">
+                                        <div class="col-sm card-location">
+                                            <span class="at-icon-map icon-left" aria-hidden="true"></span>
+                                            <span class="font-size-sm font-bold">Borneo, Indonesia</span>
+                                        </div>
+                                        <div class="col-sm card-tree-cost flex-align-center">
+                                            <span class="at-icon-dollar font-size-sm" aria-hidden="true"></span>
+                                            <span class="font-size-sm font-bold">1</span>
+                                            <span class="at-icon-leaf icon-right" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                    <div class="card-banner-title">Afforestation near Coastal Forest</div>
                                 </div>
-                                <div class="col-sm card-tree-cost flex-align-center">
-                                    <span class="at-icon-dollar font-size-sm" aria-hidden="true"></span>
-                                    <span class="font-size-sm font-bold">1</span>
-                                    <span class="at-icon-leaf icon-right" aria-hidden="true"></span>
+                                <div class="card-content white-bg" style="max-width: 285px;">
+                                    <div class="text-center spacing-2-t">
+                                        <a href="#" class="link-action">
+                                            <span class="at-icon-arrow-right link-action-icon"></span>
+                                            <span class="link-action-text font-size-sm">Adopt A Tree</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card-banner-title">Afforestation near Coastal Forest</div>
                         </div>
-                        <div class="card-content white-bg" style="max-width: 285px;">
-                            <div class="text-center spacing-2-t">
-                                <a href="#" class="link-action">
-                                    <span class="at-icon-arrow-right link-action-icon"></span>
-                                    <span class="link-action-text font-size-sm">Adopt A Tree</span>
-                                </a>
+                        <div class="card margin-reset" style="width: 100%; max-width: 285px; min-height: 160px;">
+                            <div class="card-banner" style="width: 100%; max-width: 285px; min-height: 160px;">
+                                <div class="overlay overlay--card-banner"></div>
+                                <img src="assets/img/fern-hands-600px.jpg" alt="Tree Planting at Borneo" width="600"
+                                     height="450" class="card-banner-img">
+                                <div class="card-banner-content">
+                                    <div class="row-sm flex flex-justify-space-between">
+                                        <div class="col-sm card-location">
+                                            <span class="at-icon-map icon-left" aria-hidden="true"></span>
+                                            <span class="font-size-sm font-bold">Burundi, Africa</span>
+                                        </div>
+                                        <div class="col-sm card-tree-cost flex-align-center">
+                                            <span class="at-icon-dollar font-size-sm" aria-hidden="true"></span>
+                                            <span class="font-size-sm font-bold">1</span>
+                                            <span class="at-icon-leaf icon-right" aria-hidden="true"></span>
+                                        </div>
+                                    </div>
+                                    <div class="card-banner-title">Greening of abandoned copper mine</div>
+                                </div>
+                                <div class="card-content white-bg" style="max-width: 285px;">
+                                    <div class="text-center spacing-2-t">
+                                        <a href="#" class="link-action">
+                                            <span class="at-icon-arrow-right link-action-icon"></span>
+                                            <span class="link-action-text font-size-sm">Adopt A Tree</span>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card-banner">
-                        <div class="overlay overlay--card-banner"></div>
-                        <img src="assets/img/fern-hands-600px.jpg" alt="Tree Planting at Borneo" width="600"
-                             height="450" class="card-banner-img">
-                        <div class="card-banner-content">
-                            <div class="row-sm flex flex-justify-space-between">
-                                <div class="col-sm card-location">
-                                    <span class="at-icon-map icon-left" aria-hidden="true"></span>
-                                    <span class="font-size-sm font-bold">Burundi, Africa</span>
-                                </div>
-                                <div class="col-sm card-tree-cost flex-align-center">
-                                    <span class="at-icon-dollar font-size-sm" aria-hidden="true"></span>
-                                    <span class="font-size-sm font-bold">1</span>
-                                    <span class="at-icon-leaf icon-right" aria-hidden="true"></span>
-                                </div>
-                            </div>
-                            <div class="card-banner-title">Greening of abandoned copper mine</div>
-                        </div>
-                        <div class="card-content white-bg" style="max-width: 285px;">
-                            <div class="text-center spacing-2-t">
-                                <a href="#" class="link-action">
-                                    <span class="at-icon-arrow-right link-action-icon"></span>
-                                    <span class="link-action-text font-size-sm">Adopt A Tree</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="dots" id="js-dots-demo-1"></div>
                 </div>
             </div>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    new Glider(document.querySelector("#js-glider-demo-1"), {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 2,
+                        draggable: true,
+                        dots: "#js-dots-demo-1",
+                        arrows: {
+                            prev: "#js-glider-prev-demo-1",
+                            next: "#js-glider-next-demo-1"
+                        }
+                    });
+                });
+            </script>
             <div class="white-bg text-center spacing-2 gray-lead font-size-lg font-bold">
                 <p class="spacing-b margin-reset">58220 treehuggers have grown forests</br>
                     in 120 locations across the world.</p>
@@ -161,10 +183,20 @@
             </div>
             <footer class="white-bg">
                 <div class="spacing-2 icon-left-xxl text-center white-bg flex flex-justify-space-between">
-                    <span class="at-icon-home gray-lead"></span>
-                    <span class="at-icon-leaf gray-titanium"></span>
-                    <span class="at-icon-cart gray-titanium"></span>
-                    <span class="at-icon-user gray-titanium"></span>
+                    <a href="home.html">
+                        <span class="at-icon-home icon-size-xxl spacing-3-h gray-lead"></span>
+                    </a>
+                    <a href="project.html">
+                        <span class="at-icon-leaf icon-size-xxl spacing-3-h gray-titanium"></span>
+                    </a>
+                    <a href="purchase-cart.html">
+                        <span class="at-icon-cart icon-size-xxl spacing-3-h gray-titanium">
+                            <sup class="font-size-xs red-crimson font-bold vertical-align-top">2</sup>
+                        </span>
+                    </a>
+                    <a href="account.html">
+                        <span class="at-icon-user icon-size-xxl spacing-3-h gray-titanium"></span>
+                    </a>
                 </div>
             </footer>
         </div>
