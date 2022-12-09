@@ -16,7 +16,8 @@
 $font-sizes-map: (
         "font-size": $font-size,
         "font-size-sm": $font-size-sm,
-        "font-size-lg": $font-size-lg
+        "font-size-lg": $font-size-lg,
+        "font-size-xxl": $font-size-xxl,
 );
 
 // @each Sass loop to generate classes
@@ -112,7 +113,7 @@ $heading-sizes-map: (
 //---------------------------------------------
 //HTML Elements: paragraphs
 
-p{
+p {
     margin-bottom: $spacing;
 }
 
@@ -144,6 +145,7 @@ a, .link {
     text-decoration: none;
     cursor: pointer;
     transition: $transition-linear;
+
     &:hover {
         color: $color-link-hover;
     }
@@ -187,3 +189,4 @@ a, .link {
 .list-reset {
     @include list-reset;
 }
+
